@@ -13,3 +13,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .body {
+  background-color: #e7ecf2;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flexbox;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.description {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.avatar {
+  width: 50%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  max-width: 50%;
+  padding-bottom: 20px;
+}
+
+.name {
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.tag {
+  color: #757575;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.location {
+  color: #757575;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.stats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f6f9;
+  display: flex;
+  text-align: center;
+  height: 50px;
+}
+
+.stats li {
+  border: 1px solid #e4e9f0;
+  width: calc(100%/3);
+  padding: 13px;
+}
+
+.label {
+  color: #757575;
+  display: block;
+  margin: auto;
+  font-weight: 400;
+  margin-bottom: 3px;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.quantity {
+  color: #212121;
+  margin-top: 0;
+  display: block;
+  margin: auto;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+} */
