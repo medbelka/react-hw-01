@@ -1,14 +1,14 @@
-import { BsFillCircleFill } from 'react-icons/bs'
-import PropTypes from 'prop-types'
-import css from 'components/FriendListItem/FriendListItem.module.css'
+import { BsFillCircleFill } from 'react-icons/bs';
+import PropTypes from 'prop-types';
+import { ListItem, FriendName, StatusIcon, FriendAvatar } from './FriendListItem.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
     return (
-        <div className={css.item}>
-            <span className={css.status}>{isOnline} <BsFillCircleFill className={`${css.icon} ${css[isOnline]}`}/></span>
-            <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
-            <p className={css.name}>{name}</p>
-        </div>
+        <ListItem>
+            <StatusIcon isOnline={isOnline} > <BsFillCircleFill /></StatusIcon>
+            <FriendAvatar src={avatar} alt="User avatar" width="48" />
+            <FriendName>{name}</FriendName>
+        </ListItem>
     )
 }
 
